@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Velocidade Média</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Velocidade Média</h2>
+        <nav>
+            <ul style="margin-top: 0px; list-style-type: none; display: flex;">
+                <li style='padding-right: 10px;'><a class="active" href="index.html" style="color: black; text-decoration: none; font-weight: bold;">Home</a></li>
+                <li><a href="sobre.html" style="color: darkgray; text-decoration: none;">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="container">
+        <h2 class="tituloContainer">Cálculo</h2>
+        <div class="dados">
+            <input type="number" id="distancia" placeholder="Informe o valor do deslocamento">
+            <input type="number" id="tempo" placeholder="Informe o intervalo de tempo">
+            <div class="botoes">
+                <button type="button" id="calcular">Calcular</button>
+                <button type="button" id="limpar">Limpar</button>
+            </div>
+            <input type="number" id="resultado" readonly>
+            </div>
+    </div>
+
+    <div id='containerResultados'>
+        <h2 id='tituloResultados'>Resultados</h2>
+        <input id='inputResultados' type="text" readonly>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">Exemplo: Uma família viaja de São Paulo para o Rio de Janeiro, para passar as férias.<br>A viagem
+            tem duração de 6 horas em um percurso de 435 km. Qual a velocidade média do automóvel?<br>Vm = 435/6 = 72.5 km/h</p>
+        <ul>
+            <li>SENAI SC</li>
+            <li>Curso de Desenvolvimento de Sistemas</li>
+            <li>Lógica de Programação</li>
+            <li>Lucas Keller</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

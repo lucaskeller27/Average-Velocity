@@ -1,0 +1,188 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+colours{
+    border-color: chocolate;
+    border-color: coral;
+    border-color: darkorange;
+    border-color: orange;
+    border-color: orangered;
+    border-color: peru;
+}
+
+.titulo {
+    background-color: wheat;
+    color: orangered;
+    margin: 0px;
+    text-align: left;
+    padding: 30px;
+}
+
+nav {
+    margin: 0px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.tituloContainer {
+    background-color: wheat;
+    text-align: left;
+    border-left: 10px;
+    color: orangered;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#distancia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    border-color: orangered;
+    width: 550px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 7.5px;
+}
+
+#tempo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    border-color: orangered;
+    width: 550px;
+    height: 40px;
+    padding: 7.5px;
+}
+
+.botoes {
+    align-items: center;
+    text-align: left;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+#calcular {
+    border-radius: 15px;
+    border-color: orangered;
+    color: orangered;
+    background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#limpar {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border-color: orangered;
+    color: orangered;
+    background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#resultado {
+    border-radius: 15px;
+    border-color: orangered;
+    color: orangered;
+    background-color: wheat;
+    width: 550px;
+    height: 40px; 
+    text-align: center;   
+}
+
+#containerResultados {
+    display: flex; 
+    flex-direction: column;
+    border: 3px solid orangered;
+    color: orangered;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#tituloResultados  {
+    background-color: wheat;
+    text-align: left;
+    align-items: left;
+    border-left: 10px;
+    color: orangered;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#inputResultados {
+    border: 3px solid orangered;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+footer {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: auto;
+}
+
+.tituloSobre {
+    background-color: wheat;
+    text-align: left;
+    border-left: 10px;
+    color: orangered;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.navSobre {
+    margin: 0px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.konteiner {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
